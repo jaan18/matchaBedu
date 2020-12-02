@@ -1,5 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #fffbf7;
+  font-family: "Alegreya";
+  font-size: 22px;
 }
 
 h1 {
@@ -29,7 +37,52 @@ img {
   width: 30%;
 }
 
+/* este es un comentario*/
+
 button {
   background-color: #025157;
   color: #fff;
+  margin-left: -5px;
+}
+
+.header {
+  margin: 40px 20px 150px 20px;
+  font-size: 0px;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.header nav li {
+  margin: 0 25px;
+  display: inline;
+}
+
+.logo {
+  width: 20%;
+}
+
+.navbar {
+  width: 60%;
+  text-align: center;
+  color: #025157;
+}
+
+.actions {
+  width: 20%;
+  font-size: 14px;
+}
+
+.signIn {
+  color: #67b54b;
+}
+
+.startFree {
+  margin: 12px 14px 12px 14px;
+  background-color: #67b54b;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
